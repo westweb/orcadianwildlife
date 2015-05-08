@@ -1,0 +1,95 @@
+/*
+LAYOUT: One-Column (Left) Fixed
+DESCRIPTION: Two-column 950px fixed layout with one sidebar left of content
+*/
+
+body {
+    min-width:960px;
+}
+#header {
+    position:relative;
+}
+#branding {
+    width:960px;
+    margin:0 auto;
+}
+#access {
+    position:relative;
+    overflow:hidden;
+}
+.menu {
+    width:960px;
+    margin:0 auto;
+}
+#main {
+    width:960px;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+#container {
+    width:960px;
+    float:right;
+    margin: 0 0 0 -310px;
+}
+#content {
+    width:640px;
+    overflow:hidden;
+    margin: 0 0 0 320px;
+}
+.hentry {
+    width:640px;
+}
+.main-aside {
+    width:300px;
+    float:left;
+    position:relative;
+}
+#primary {
+    float:left;
+}
+#secondary {
+    clear:left;
+}
+#footer {    
+    clear:both;
+}
+#subsidiary {
+    width:960px;
+    margin:0 auto;
+    overflow:hidden;
+}
+#subsidiary .aside {
+    width:300px;
+    float:left;
+    margin:0 20px 0 0;
+}
+#subsidiary #third {
+    margin:0;
+}
+#siteinfo {
+    clear:both;
+    width:960px;
+    margin:0 auto;
+}
+
+/* =Page Templates
+-------------------------------------------------------------- */
+
+/*
+    Full Width Template
+*/
+
+.page-template-template-page-fullwidth-php #container {
+	margin:0;
+	width:960px;
+}
+
+.page-template-template-page-fullwidth-php #content {
+	margin: 0 0 0 10px;
+	width:960px;
+}
+
+.page-template-template-page-fullwidth-php #comments {
+    width:560px;
+}

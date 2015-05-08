@@ -1,0 +1,100 @@
+/*
+LAYOUT: One-Column (Right) Fixed
+DESCRIPTION: Two-column 950px fixed layout with one sidebar right of content
+*/
+
+body {
+    min-width:960px;
+}
+#header {
+    position:relative;
+}
+#branding {
+    width:960px;
+    margin:0 auto;
+}
+#access {
+    position:relative;
+    overflow:hidden;
+}
+.menu {
+    width:960px;
+    margin:0 auto;
+}
+#main {
+    width:960px;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+	background: #e9e2c8;
+	overflow:hidden;
+}
+#container {
+    width:700px;
+    float:left;
+}
+#content {
+    margin:10px 0 0 10px;
+    width:700px;
+    overflow:hidden;
+}
+.main-aside {
+    width:240px;
+    float:right;
+    position:relative;
+	background: #dcd6be;
+	padding-bottom: 1000em;
+	margin-bottom: -1000em;
+}
+#secondary {
+    clear:right;
+}
+#footer {    
+    clear:both;
+}
+#subsidiary {
+    width:960px;
+    margin:0 auto;
+    overflow:hidden;
+}
+#subsidiary .aside {
+    float:left;
+    margin:0 20px 0 0;
+}
+#subsidiary #third {
+    margin:0;
+}
+#siteinfo {
+    clear:both;
+    width:960px;
+    margin:0 auto;
+}
+
+.entry-content .wp-post-image {
+	margin: 0 0 12px 18px;
+}
+.entry-content img {
+    margin: 0 0 12px 0;
+}
+
+
+/* =Page Templates
+-------------------------------------------------------------- */
+
+/*
+    Full Width Template
+*/
+
+.page-template-template-page-fullwidth-php #container {
+	margin:0;
+	width:960px;
+}
+
+.page-template-template-page-fullwidth-php #content {
+	margin: 0 0 0 10px;
+	width:960px;
+}
+
+.page-template-template-page-fullwidth-php #comments {
+    width:620px;
+}
